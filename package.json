@@ -1,7 +1,7 @@
 {
   "name": "render-html-node",
   "version": "1.0.0",
-  "description": "A basic render html with node",
+  "description": "rendering html files using express-handlebars",
   "main": "index.js",
   "dependencies": {
     "express": "^4.15.2",
