@@ -13,10 +13,9 @@
   },
   "keywords": [
     "node",
-    "server",
-    "basic",
-    "node",
-    "server"
+    "rendering html",
+    "express",
+    "express-handlebars"
   ],
   "author": "Jonas Spohr",
   "license": "ISC"
