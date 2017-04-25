@@ -1,8 +1,29 @@
-<html>  
-  <head>
-    <title>Rendeting html using express-handlebars</title>
-  </head>
-  <body>
-    {{{body}}}
-  </body>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic shop list using boostrap and angular</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/global.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script src="js/core.js"></script>
+</head>
+<body ng-controller="mainController">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Shop List</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		{{{body}}}
+	</div>
+</body>
 </html>  

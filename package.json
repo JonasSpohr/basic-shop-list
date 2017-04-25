@@ -1,11 +1,14 @@
 {
-  "name": "render-html-node",
+  "name": "shop-list",
   "version": "1.0.0",
-  "description": "rendering html files using express-handlebars",
+  "description": "A basic shop list using MongoDB, Bootstrap, AngularJS and ajax calls",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.6"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,7 +16,8 @@
   },
   "keywords": [
     "node",
-    "rendering html",
+    "MongoDB",
+    "todo list",
     "express",
     "express-handlebars"
   ],
